@@ -1,6 +1,5 @@
 langchain
 pinecone_client
 python-dotenv
-streamlit
 streamlit_chat
 streamlit_extras
