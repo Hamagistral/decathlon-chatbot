@@ -3,3 +3,4 @@ pinecone_client
 python-dotenv
 streamlit_chat
 streamlit_extras
+openai
