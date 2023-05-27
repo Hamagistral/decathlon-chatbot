@@ -42,7 +42,7 @@ class DecathlonChatbot:
         docs = _db.similarity_search(query, k=k)
         docs_page_content = " ".join([d.page_content for d in docs])
 
-        chat = ChatOpenAI(model_name="gpt-3.5-turbo")
+        chat = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key=OPENAI_API_KEY)
 
         # Template to use for the system message prompt
         template = """
