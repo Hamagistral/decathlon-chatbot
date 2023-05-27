@@ -1,5 +1,4 @@
 langchain
-pinecone
 pinecone_client
 python-dotenv
 streamlit
