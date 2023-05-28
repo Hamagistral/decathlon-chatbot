@@ -12,8 +12,8 @@
   
   <p>A Customer Service Chatbot Trained on Decathlon Maroc Data</p>
     <a href="https://decathlon-chatbot.streamlit.app/" target="_blank">Live Preview</a>
-    💬
-    <a href="" target="_blank">Demo YouTube</a>
+    🏓
+    <a href="https://youtu.be/GKkOpEjlfEo" target="_blank">Demo YouTube</a>
     🔮
     <a href="https://github.com/Hamagistral/DataEngineers-Glassdoor/issues" target="_blank">Request Feature</a>
 </div>
