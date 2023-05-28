@@ -96,6 +96,10 @@ The chatbot is designed to engage with customers and provide them with relevant 
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 <img src="https://user-images.githubusercontent.com/66017329/223900076-e1d5c1e5-7c4d-4b73-84e7-ae7d66149bc6.png" alt="Banner" width="100">
 
+## 🚨 Disclaimer
+
+This project is not affiliated with Decathlon Maroc, this is a personal project whose goal is primarily to apply Sentiment Analysis Techniques to real world product reviews and also develop a chatbot that is capable of interacting with a company's documentation and answering customers questions accordingly.
+
 <a name="installation"></a>
 ## 🖥️ Installation : 
 1. Clone the repository:
