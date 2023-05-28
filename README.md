@@ -51,11 +51,11 @@ This project consists of a sentiment analysis part for product reviews and a cha
 
 The sentiment analysis part focuses on analyzing product reviews. It follows the following steps:
 
-1. **Scraping:** The reviews are scraped from Decathlon Maroc's website using Beautiful Soup, extracting the necessary information for analysis like customer name, review date, review description, review rating etc...
+1. **Scraping:** The reviews are scraped from Decathlon Maroc's website using Beautiful Soup, extracting the necessary information for analysis like customer name, review date, review description, review rating etc... [Scraping Notebook](https://github.com/Hamagistral/decathlon-chatbot/blob/master/decathlon_scraper/scraper.ipynb)
 
 2. **Data Cleaning:** The scraped reviews are cleaned to remove any irrelevant or noisy data like texts in arabic or numeric values, ensuring that the analysis focuses on meaningful and valid content.
 
-3. **Sentiment Analysis:** The Natural Language Toolkit (NLTK) library and Vader sentiment analysis are employed to assess the sentiment of the review descriptions. This process provides an understanding of the customers' opinions and sentiments towards specific products.
+3. **Sentiment Analysis:** The Natural Language Toolkit (NLTK) library and Vader sentiment analysis are employed to assess the sentiment of the review descriptions. This process provides an understanding of the customers' opinions and sentiments towards specific products. [SIA Notebook](https://github.com/Hamagistral/decathlon-chatbot/blob/master/notebook/decathlon-sentiment-analysis.ipynb)
 
 #### 📋 Sentiment Analysis Steps :
 
@@ -67,11 +67,11 @@ The chatbot is designed to engage with customers and provide them with relevant 
 
 1. **Data Extraction**: HTML files containing information about returns policies, warranty details, contact information, and other relevant topics are loaded using a WebBaseloader in Langchain.
 
-2. **Document Embedding**: The OpenAI Ada embedding model is utilized to convert the loaded documents into embeddings, enabling efficient search and retrieval of relevant information.
+2. **Document Embedding**: The OpenAI Ada embedding model is utilized to convert the loaded documents into embeddings, enabling efficient search and retrieval of relevant information. [Documents Embedding Notebook](https://github.com/Hamagistral/decathlon-chatbot/blob/master/notebook/embeddings.ipynb)
 
 3. **Vector Database:** The embeddings generated from the documents are loaded into a Pinecone vector database. This database facilitates similarity searches, allowing the chatbot to retrieve the most relevant parts of the documents based on customer queries.
 
-4. **Chatbot Interface:** A Streamlit application is developed with a chatbot interface, enabling direct interaction with customers. Customers can inquire about specific problems or request information, and the chatbot (gpt-3.5-model with custom template) leverages the Pinecone database to provide the most appropriate responses based on document similarity.
+4. **Chatbot Interface:** A Streamlit application is developed with a chatbot interface, enabling direct interaction with customers. Customers can inquire about specific problems or request information, and the chatbot (gpt-3.5-model with custom template) leverages the Pinecone database to provide the most appropriate responses based on document similarity. [Chatbot Code](https://github.com/Hamagistral/decathlon-chatbot/blob/master/decathlon_chatbot/chatbot.py)
 
 #### 📝 Chatbot Architecture
 
