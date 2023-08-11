@@ -4,3 +4,4 @@ python-dotenv
 streamlit_chat
 streamlit_extras
 openai
+tiktoken
