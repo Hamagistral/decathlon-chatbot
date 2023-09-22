@@ -81,7 +81,7 @@ The chatbot is designed to engage with customers and provide them with relevant 
 ## 📋 References
 
 **Project inspired by**: https://www.youtube.com/watch?v=cVA1RPsGQcw  
-**Beautiful Scoup Scraper:** https://github.com/umangkejriwal1122/Web-Scraping  
+**Beautiful Soup Scraper:** https://github.com/umangkejriwal1122/Web-Scraping  
 **Streamlit Chatbot UI inspired by**: https://blog.streamlit.io/how-to-build-an-llm-powered-chatbot-with-streamlit/
 
 <a name="techs"></a>

@@ -28,7 +28,7 @@ with st.sidebar:
     st.markdown('💻 Source code on [Github](https://github.com/Hamagistral/decathlon-chatbot)')
     st.markdown('👨‍💻 Made by [Hamagistral](https://www.linkedin.com/in/hamza-elbelghiti/)')
     st.markdown('---')
-    st.markdown("🔴 N.B: Ce projet est une projet personnel et n'est pas affilié à Decathlon Maroc")
+    st.markdown("🔴 N.B: Ce projet est un projet personnel et n'est pas affilié à Decathlon Maroc")
 
 
 if 'generated' not in st.session_state:
