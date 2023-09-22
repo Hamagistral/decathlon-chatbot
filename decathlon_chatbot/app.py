@@ -22,10 +22,10 @@ with st.sidebar:
     Cette application est un chatbot qui répond aux questions des clients de Decathlon Maroc en se basant sur les informations disponibles
     sur le site web [Decathlon Maroc](https://www.decathlon.ma/).
 
-    ---
+    ###
     ''')
 
-    st.markdown('😺 See Repository on [Github](https://github.com/Hamagistral/decathlon-chatbot)')
+    st.markdown('💻 Source code on [Github](https://github.com/Hamagistral/decathlon-chatbot)')
     st.markdown('👨‍💻 Made by [Hamagistral](https://www.linkedin.com/in/hamza-elbelghiti/)')
     st.markdown('---')
     st.markdown("🔴 N.B: Ce projet est une projet personnel et n'est pas affilié à Decathlon Maroc")
@@ -44,12 +44,12 @@ response_container = st.container()
 
 
 def get_text():
-    question = st.text_input("Vous : ", "", key="input")
+    question = st.text_input("Vous: ", "", key="input")
     return question
 
 
 with input_container:
-    st.markdown("### Avez-vous une question pour Decathlon Maroc ?")
+    st.markdown("### 💬 Avez-vous une question pour Decathlon Maroc ?")
     user_input = get_text()
 
 
